@@ -5,6 +5,7 @@
 body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
+	color: #333;
 }
 a {
 	color:#836952;
@@ -103,15 +104,15 @@ h6 {
 	background-image: url("images/bg.jpg");
     width: 100%;
 /*    max-width: 1200px;*/
-    min-height: 100vh;
+    min-height: 80vh;
     background-position: center;
     background-size: cover;
     margin: -140px auto;
 }
 .banner {
 	background: #7a60ff;
-	background: linear-gradient(to left, #CFECC9, #42865e);
-/*	background: linear-gradient(to left, #CFECC9, #42865e);*/
+	background: linear-gradient(to left, #a6c79d, #a6c79d);
+/*	background: linear-gradient(to left, #a6c79d, #a6c79d);*/
 	padding:140px 0px;
 	position:relative;
 }
@@ -201,7 +202,7 @@ h6 {
 	height: 135px;
 	border-radius: 100px;
 	background: #7a60ff;
-	background:  linear-gradient(to left, #CFECC9, #42865e);
+	background:  linear-gradient(to left, #a6c79d, #a6c79d);
 	color: #ffffff;
 	font-size: 50px;
 	line-height: 135px;
@@ -236,7 +237,7 @@ h6 {
 	overflow: hidden;
 }
 .video-overlay {
-	background: linear-gradient(to left, rgba(122, 96, 255, 0.90), rgba(205, 159, 250, 0.90));
+	background: linear-gradient(to left, #a6c79d, #a6c79d);
 }
 .video-section h3 {
 	font-weight: 600;
@@ -311,10 +312,10 @@ h6 {
 	width: 50px;
 	height: 50px;
 	border-radius: 100px;
-	color: rgb(142, 30, 252);
+	color: #a6c79d;
 	font-size: 18px;
 	line-height: 50px;
-	border: 1px solid rgb(142, 30, 252);
+	border: 1px solid #a6c79d;
 }
 .team {
 	background: #fafafa;
@@ -328,14 +329,14 @@ h6 {
 	width: 70%;
 }
 .team-detail h4 {
-	color:rgb(142, 30, 252);
+	color:#a6c79d;
 	margin-top: 20px;
 	font-size: 17px;
 	margin-bottom: 0px;
 }
 .testimonial {
-	background: #7a60ff;
-	background: linear-gradient(to left, #CFECC9, #42865e);
+	background: #7a60ff;				
+	background: linear-gradient(to left, #a6c79d, #a6c79d);
 	padding:100px 0px;
 	position:relative;
 }
@@ -448,14 +449,14 @@ input {
 	border-radius: 2rem;
 	border: 0;
 	background: #7a60ff;
-	background: linear-gradient(to left, #CFECC9, #42865e);
+	background: linear-gradient(to left, #a6c79d, #a6c79d);
 	cursor:pointer;
 }
 .contact-info {
 	padding: 2rem 2rem 1rem;
 	border-radius: 8px;
 	background: #7a60ff;
-	background: linear-gradient(to left, #CFECC9, #42865e);
+	background: linear-gradient(to left, #a6c79d, #a6c79d);
 }
 .contact-item {
 	margin:23px 0px;
@@ -469,7 +470,7 @@ input {
 }
 .download {
 	background: #7a60ff;
-	background: linear-gradient(to left, #CFECC9, #42865e);
+	background: linear-gradient(to left, #a6c79d, #a6c79d);
 	padding:100px 0px;
 	position:relative;
 }
@@ -510,7 +511,7 @@ input {
 @media all and (max-width:991px) {
 .navbar .navbar-collapse {
 	overflow: auto;
-	background:  rgb(213, 198, 221);
+	background:  #a6c79d;
 	color: #fff !important;
 	text-align: center;
 	padding: 10px 0;
@@ -523,10 +524,13 @@ input {
 }
 }
 @media all and (max-width:768px) {
-.nav-scroll .navbar-brand img, .navbar-brand img {
+.hero-bg {
+	min-height: 60vh;
+}
+/*.nav-scroll .navbar-brand img, .navbar-brand img {
 	transform: scale(0.75) !important;
 	-webkit-transform: scale(0.75) !important;
-}
+}*/
 .banner-text {
 	padding-right: 0px;
 	margin: 10px 0px 0px;
