@@ -37,7 +37,8 @@ h6 {
 	padding-right: 0;
 	min-height: 50px;
 	line-height: 50px;
-	background: transparent;
+/*	background: transparent;*/
+    background: linear-gradient(0deg,rgba(255, 255, 255, 0) 25%, rgba(201, 201, 201, 1) 100%);
 	z-index: 1030;
 }
 .navbar .active {
