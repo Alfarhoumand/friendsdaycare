@@ -620,6 +620,11 @@ h3 {
 }
 }
 
+.tree-image {
+	display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
 .carousel-image {
 	max-height: 70vh;
 }
