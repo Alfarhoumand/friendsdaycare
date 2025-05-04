@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>FRIENDS Daycare</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="style.css"/>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-<!-- Font Google -->
-<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>FRIENDS Daycare</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <!-- Font Google -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
 </head>
 
 <body>
@@ -101,7 +103,40 @@
 <section class="video-section prelative text-center white">
   <div class="section-padding video-overlay">
     <div class="container">
-      <h3>Watch Now</h3>
+
+      <div class="f-carousel" id="myCarousel">
+        <div class="f-carousel__slide">
+          <img class="carousel-image" src="images/photos/1.jpg">
+        </div>
+        <div class="f-carousel__slide">
+          <img class="carousel-image" src="images/photos/2.jpg">
+        </div>
+        <div class="f-carousel__slide">
+          <img class="carousel-image" src="images/photos/3.jpg">
+        </div>
+        <div class="f-carousel__slide">
+          <img class="carousel-image" src="images/photos/4.jpg">
+        </div>
+        <div class="f-carousel__slide">
+          <img class="carousel-image" src="images/photos/5.jpg">
+        </div>
+        <div class="f-carousel__slide">
+          <img class="carousel-image" src="images/photos/6.jpg">
+        </div>
+        <div class="f-carousel__slide">
+          <img class="carousel-image" src="images/photos/7.jpg">
+        </div>
+        <div class="f-carousel__slide">
+          <img class="carousel-image" src="images/photos/8.jpg">
+        </div>
+        <div class="f-carousel__slide">
+          <img class="carousel-image" src="images/photos/9.jpg">
+        </div>
+        
+      </div>
+
+
+      <!-- <h3>Watch Now</h3>
       <i class="fa fa-play" id="video-icon" aria-hidden="true"></i>
       <div class="video-popup">
         <div class="video-src">
@@ -109,7 +144,7 @@
             <iframe src="https://www.youtube.com/embed/Ku52zNnft8k?rel=0&amp;showinfo=0" allowfullscreen></iframe>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
@@ -308,7 +343,7 @@
             </div>
             <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
               <h4>What are your operating hours ?</h4>
-              <p>We’re open Monday–Friday, 7:30 AM to 5:00 PM, excluding major holidays.</p>
+              <p>We’re open Monday–Friday, 8:00 AM to 5:00 PM, excluding major holidays.</p>
             </div>
             <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
               <h4>Do you provide meals and snacks ?</h4>
@@ -506,6 +541,16 @@ $(window).on("load",function (){
 	topOffset: -63
 	});
 });
+
+
+const container = document.getElementById("myCarousel");
+const options = { 
+  Navigation: false,
+  infinite: false 
+};
+
+new Carousel(container, options);
+
 
 </script>
 </body>
