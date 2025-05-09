@@ -642,3 +642,6 @@ h3 {
     --f-carousel-slide-width: calc(100% / 4);
   }
 }
+.social-links {
+	color: white;
+}
